@@ -1,9 +1,9 @@
 tile-cover
 ==========
 
-[![Build Status](https://travis-ci.org/mapbox/tile-cover.svg?branch=master)](https://travis-ci.org/mapbox/tile-cover)
-
 Generate the minimum number of tiles to cover a [GeoJSON Geometry](http://geojson.org/geojson-spec.html#geometry-objects).
+
+_Differs from the original in the slower, but accurate use of strings as hashmap keys._
 
 ### Install
 
